@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+
+    int a, b, c, d; 
+    int diferenca; 
+    scanf("%d\n%d\n%d\n%d",&a,&b,&c,&d);
+    diferenca = ((a*b)-(c*d)); 
+    printf("DIFERENCA = %d\n",diferenca);
+    return 0;
+}
